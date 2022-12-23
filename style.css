@@ -16,8 +16,8 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 5%;
+    justify-content: space-between;
+    height: 3rem;
     background: lightblue;
 
     
@@ -28,9 +28,13 @@ a{
     color: black;
 }
 
-nav > a{
-    margin-left: 15px;
+.navbar{
     font-size: 20px;
+    background-color: brown;
+    width: 25%;
+    margin-right: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
 
        
     
@@ -45,16 +49,17 @@ nav > a{
     background: transparent;
     border: transparent;
     cursor: pointer;
+    
 }
 .search-container{
     width: 15%;
-    height: 30px;
+    height: 2.5rem;
     align-items: center;
     position: relative;
 	
 }
 .input{width: 100%;
-height: 30px;
+height: 2.5rem;
 border-radius: 30px;
 display: block;
 font-size: 15px;
@@ -64,24 +69,20 @@ outline: none;
 
 }
 
-.hamburquesa{
-    color: black;
-    display: none;
-    cursor: pointer;
-    font-size: 32px;
-}
+
 header .logo {
     width: 8vw;
     justify-content: right;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    
 
 }
 
 
 .imagen{
-    width: 1.5vw;
+    width: 2vw;
     border-radius: 90%;
     cursor: pointer;
 }
@@ -90,8 +91,7 @@ header .logo {
     display: flex;
 align-items: center;
     justify-content:space-between;
-    
-    width: 100px;
-    
+        width: 100px;
+    margin-right: 40px;
     
 }
